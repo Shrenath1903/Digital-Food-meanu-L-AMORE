@@ -54,7 +54,7 @@ const menuData = {
                 tasteProfile: 'Crunchy, cheesy, and zesty.',
                 price: 150,
                 emoji: '🌽',
-                image: 'img/loaded_nachos.jpg'
+                image: 'img/Loaded_Nachos.jpg'
             },
             {
                 name: 'Chicken Nachos',
@@ -63,7 +63,7 @@ const menuData = {
                 tasteProfile: 'Spicy and savory.',
                 price: 180,
                 emoji: '🍗',
-                image: 'img/chicken_nachos.jpg'
+                image: 'img/Chicken_Nachos.jpg'
             },
             {
                 name: 'Fish & Chips',
@@ -94,7 +94,7 @@ const menuData = {
                 howMade: 'Pan-seared chicken with bell peppers.',
                 tasteProfile: 'Spicy and aromatic.',
                 price: 210,
-                image: 'img/pepper_chicken_tacos.jpg'
+                image: 'img/Pepper_Chicken_Tacos.jpg'
             },
             {
                 name: 'Paneer Tacos',
