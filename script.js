@@ -54,7 +54,7 @@ const menuData = {
                 tasteProfile: 'Crunchy, cheesy, and zesty.',
                 price: 150,
                 emoji: '🌽',
-                image: 'img/loaded_nachos.jpg'
+                image: 'img/Loaded_Nachos.jpg'
             },
             {
                 name: 'Chicken Nachos',
@@ -63,7 +63,7 @@ const menuData = {
                 tasteProfile: 'Spicy and savory.',
                 price: 180,
                 emoji: '🍗',
-                image: 'img/chicken_nachos.jpg'
+                image: 'img/Chicken_Nachos.jpg'
             },
             {
                 name: 'Fish & Chips',
@@ -455,7 +455,7 @@ let currentCategory = 'all';
 const backgroundMusic = document.getElementById('backgroundMusic');
 
 const playlist = [
-    'vennilave.mp3',
+    'kuruvi.mp3',
     'ghilli.mp3'
 ];
 
