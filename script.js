@@ -54,7 +54,7 @@ const menuData = {
                 tasteProfile: 'Crunchy, cheesy, and zesty.',
                 price: 150,
                 emoji: '🌽',
-                image: 'img/Loaded_Nachos.jpg'
+                image: 'img/loaded_nachos.jpg'
             },
             {
                 name: 'Chicken Nachos',
@@ -63,7 +63,7 @@ const menuData = {
                 tasteProfile: 'Spicy and savory.',
                 price: 180,
                 emoji: '🍗',
-                image: 'img/Chicken_Nachos.jpg'
+                image: 'img/chicken_nachos.jpg'
             },
             {
                 name: 'Fish & Chips',
@@ -94,7 +94,7 @@ const menuData = {
                 howMade: 'Pan-seared chicken with bell peppers.',
                 tasteProfile: 'Spicy and aromatic.',
                 price: 210,
-                image: 'img/Pepper_Chicken_Tacos.jpg'
+                image: 'img/pepper_chicken_tacos.jpg'
             },
             {
                 name: 'Paneer Tacos',
@@ -350,6 +350,65 @@ const menuData = {
             }
         ]
     }
+    ,
+    pizza: {
+        icon: '🍕',
+        items: [
+            { name: 'Fried Chicken Pizza', price: 230, description: 'Crispy fried chicken pieces, mozzarella and tangy sauce on a golden crust.', howMade: 'Hand-stretched dough topped with tomato sauce, mozzarella and crispy fried chicken, baked until golden.', image: 'img/Fried_Chicken_Pizza.jpg' },
+            { name: 'Chicken Tikka Pizza', price: 200, description: 'Marinated chicken tikka with spices, onions and cheese.', howMade: 'Tikka-spiced chicken pieces layered over tomato base and cheese, then oven-baked to meld flavors.', image: 'img/Chicken_Tikka_Pizza.jpg' },
+            { name: 'Paneer Pizza', price: 180, description: 'Grilled paneer cubes with peppers and rich cheese.', howMade: 'Fresh paneer marinated and seared, added on a cheese-topped base and baked until bubbly.', image: 'img/Paneer_Pizza.jpg' },
+            { name: 'Margarita Pizza', price: 160, description: 'Classic Margherita with fresh tomato, basil and mozzarella.', howMade: 'Simple tomato sauce, slices of fresh tomato and mozzarella baked on a thin crust and finished with basil.', image: 'img/Margarita_Pizza.jpg' },
+            { name: 'Pepperoni Pizza', price: 230, description: 'Classic pepperoni with melted cheese and savory tomato sauce.', howMade: 'Tomato base layered with mozzarella and pepperoni slices, baked until the edges crisp.', image: 'img/Pepperoni_Pizza.jpg' },
+            { name: "Meat Lover's Pizza", price: 250, description: 'Loaded with assorted meats, cheese and a hearty sauce.', howMade: 'A mix of sausage, ham, pepperoni and chicken layered over sauce and cheese, baked until deeply browned.', image: 'img/Meat_Lovers_Pizza.jpg' },
+            { name: 'BBQ Chicken Pizza', price: 200, description: 'Smoky BBQ chicken with onions and sweet barbecue glaze.', howMade: 'Grilled chicken tossed in BBQ sauce layered on cheese and baked, finished with a drizzle of extra BBQ.', image: 'img/BBQ_Chicken_Pizza.jpg' },
+            { name: 'Buffalo Chicken Pizza', price: 230, description: 'Spicy buffalo-style chicken with cooling ranch or blue cheese.', howMade: 'Shredded chicken tossed in buffalo sauce, baked on a cheesy base and served with a cool dip.', image: 'img/Buffalo_Chicken_Pizza.jpg' },
+            { name: 'Pesto Chicken Pizza', price: 200, description: 'Aromatic basil pesto, chicken and melted cheese.', howMade: 'Pesto spread replaces tomato base, topped with chicken and cheese, then baked until fragrant.', image: 'img/Pesto_Chicken_Pizza.jpg' }
+        ]
+    },
+    thick_shakes: {
+        icon: '🥤',
+        items: [
+            { name: 'Cold Chocolate', price: 140, description: 'Rich chocolate milkshake topped with cream and chocolate shavings.', howMade: 'Blended cold milk, ice cream and chocolate syrup until smooth and creamy.', image: 'img/Cold_Chocolate.jpg' },
+            { name: 'Belgium Chocolate', price: 160, description: 'Luxurious Belgian chocolate shake with deep cocoa flavor.', howMade: 'High-quality Belgian chocolate melted into milk and ice cream, then blended until silky.', image: 'img/Belgium_Chocolate.jpg' },
+            { name: 'Oreo', price: 140, description: 'Creamy Oreo shake with crunchy cookie bits.', howMade: 'Vanilla ice cream, milk and crushed Oreo cookies blended to a smooth, textured shake.', image: 'img/Oreo.jpg' },
+            { name: 'Nutella', price: 140, description: 'Chocolate-hazelnut Nutella shake, sweet and indulgent.', howMade: 'Nutella, ice cream and milk blended until smooth and topped with a Nutella drizzle.', image: 'img/Nutella.jpg' },
+            { name: 'Black Currant', price: 140, description: 'Fruity black currant shake with tangy-sweet notes.', howMade: 'Black currant syrup or puree blended with ice cream and milk for a refreshing shake.', image: 'img/Black_Currant.jpg' },
+            { name: 'Cold Boost', price: 140, description: 'Energy-boosting cold shake with chocolate and malted flavors.', howMade: 'Blend of milk, chocolate, malt powder and ice cream for a revitalizing treat.', image: 'img/Cold_Boost.jpg' },
+            { name: 'Cold Coffee', price: 140, description: 'Chilled coffee shake with a creamy finish.', howMade: 'Cold brewed or chilled coffee blended with ice cream and milk, served cold.', image: 'img/Cold_Coffee.jpg' },
+            { name: 'Cold Horlicks', price: 140, description: 'Malted Horlicks shake, warm-tasting chilled treat.', howMade: 'Horlicks malt powder combined with milk and ice cream, blended until smooth.', image: 'img/Cold_Horlicks.jpg' }
+        ]
+    },
+    fresh_drinks: {
+        icon: '🥤',
+        items: [
+            { name: 'Watermelon', price: 100, description: 'Refreshing chilled watermelon juice.', howMade: 'Fresh watermelon blended and strained over ice for a hydrating drink.', image: 'img/Watermelon.jpg' },
+            { name: 'Pineapple', price: 100, description: 'Sweet and tangy pineapple juice.', howMade: 'Fresh pineapple pulped and strained, served chilled with a touch of lime.', image: 'img/Pineapple.jpg' },
+            { name: 'Orange', price: 120, description: 'Freshly squeezed orange juice, bright and zesty.', howMade: 'Ripe oranges juiced and served immediately over ice.', image: 'img/Orange.jpg' },
+            { name: 'Lemon Mint', price: 80, description: 'Citrusy lemonade with cooling mint.', howMade: 'Fresh lemon juice mixed with simple syrup, muddled mint and chilled water.', image: 'img/Lemon_Mint.jpg' },
+            { name: 'Lemon Soda', price: 100, description: 'Fizzy lemon soda with a sharp citrus kick.', howMade: 'Fresh lemon juice combined with soda water and sugar, served with ice.', image: 'img/Lemon_Soda.jpg' },
+            { name: 'Lemon Juice', price: 80, description: 'Classic lemon juice, tangy and refreshing.', howMade: 'Squeezed lemon mixed with water and sweetener to taste, served chilled.', image: 'img/Lemon_Juice.jpg' }
+        ]
+    },
+    desserts: {
+        icon: '🍰',
+        items: [
+            { name: 'Brownie', price: 150, description: 'Warm, fudgy chocolate brownie served with optional ice cream.', howMade: 'Baked rich chocolate batter into a dense brownie, served warm with a scoop of ice cream if desired.', image: 'img/Brownie.jpg' },
+            { name: 'Nutella Waffle', price: 170, description: 'Crispy waffle topped with warm Nutella and fresh fruit.', howMade: 'Belgian-style waffle toasted and generously spread with Nutella, garnished with berries.', image: 'img/Nutella_Waffle.jpg' },
+            { name: 'Fried Ice Cream', price: 130, description: 'Crunchy-coated, quick-fried ice cream with a cold center.', howMade: 'Scoops of ice cream coated in crumbs, flash-fried briefly and served immediately.', image: 'img/Fried_Ice_Cream.jpg' }
+        ]
+    },
+    refreshers: {
+        icon: '☕',
+        items: [
+            { name: 'Coffee', price: 40, description: 'Freshly brewed coffee — simple and energizing.', howMade: 'Fresh ground coffee brewed and served hot or black as requested.', image: 'img/Coffee.jpg' },
+            { name: 'Ice Tea', price: 80, description: 'Chilled iced tea, lightly sweetened and refreshing.', howMade: 'Black tea brewed, chilled and served over ice with lemon.', image: 'img/Ice_Tea.jpg' },
+            { name: 'Lemon Tea', price: 60, description: 'Warm lemon-infused tea, soothing and bright.', howMade: 'Black tea brewed with fresh lemon juice and sweetener to taste.', image: 'img/Lemon_Tea.jpg' },
+            { name: 'Strawberry Mojito', price: 150, description: 'Fruity mojito with fresh strawberries and mint.', howMade: 'Muddled strawberries and mint with lime and soda, lightly sweetened and served over ice.', image: 'img/Strawberry_Mojito.jpg' },
+            { name: 'Blueberry Mojito', price: 150, description: 'Blueberry twist on a classic mojito with fresh mint.', howMade: 'Muddled blueberries and mint with lime, simple syrup and soda water.', image: 'img/Blueberry_Mojito.jpg' },
+            { name: 'Blue Curacao', price: 150, description: 'Vibrant, sweet blue citrus refresher.', howMade: 'A mix of blue curaçao syrup, citrus juices and soda for a bright, tropical drink.', image: 'img/Blue_Curacao.jpg' },
+            { name: 'Hot Chocolate', price: 180, description: 'Rich hot chocolate topped with cream and cocoa.', howMade: 'Creamy milk heated with high-quality cocoa and sugar, whisked until smooth.', image: 'img/Hot_Chocolate.jpg' }
+        ]
+    }
 };
 
 const categoryOrder = [
@@ -362,6 +421,7 @@ const categoryOrder = [
     'ramen',
     'pasta',
     'wraps'
+    , 'pizza', 'thick_shakes', 'fresh_drinks', 'desserts', 'refreshers'
 ];
 
 const categoryLabels = {
@@ -374,6 +434,7 @@ const categoryLabels = {
     ramen: 'Ramen',
     pasta: 'Pasta',
     wraps: 'Wraps'
+    , pizza: 'Pizza', thick_shakes: 'Thick Shakes', fresh_drinks: 'Fresh Drinks', desserts: 'Desserts', refreshers: 'Refreshers'
 };
 
 const categoryIcons = {
@@ -386,6 +447,7 @@ const categoryIcons = {
     ramen: '🍜',
     pasta: '🍝',
     wraps: '🌯'
+    , pizza: '🍕', thick_shakes: '🥤', fresh_drinks: '🧃', desserts: '🍰', refreshers: '☕'
 };
 
 let currentCategory = 'all';
@@ -400,12 +462,40 @@ const playlist = [
 let currentSongIndex = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
+
     initializeMenu();
     setupModal();
     setupSearch();
+    setupFullMenuButton();
+
+    // START MUSIC IMMEDIATELY
+    backgroundMusic.src = playlist[0];
+    backgroundMusic.volume = 0.25;
+
+    // Browser allows ONLY muted autoplay
+    backgroundMusic.muted = true;
+
+    backgroundMusic.play().then(() => {
+        console.log("Autoplay started");
+    }).catch(err => {
+        console.log("Autoplay blocked", err);
+    });
+
+    // First touch/click -> unmute automatically
+    const enableSound = () => {
+        backgroundMusic.muted = false;
+
+        backgroundMusic.play();
+
+        document.removeEventListener('click', enableSound);
+        document.removeEventListener('touchstart', enableSound);
+    };
+
+    document.addEventListener('click', enableSound);
+    document.addEventListener('touchstart', enableSound);
+
     setupAudio();
 });
-
 function initializeMenu() {
     const categoriesContainer = document.getElementById('menuCategories');
 
@@ -548,14 +638,48 @@ function setupModal() {
 
 function setupAudio() {
     const toggle = document.getElementById('audioToggle');
-    
+
     backgroundMusic.volume = 0.25;
-    
-    loadAndPlaySong(0);
-    
+    backgroundMusic.autoplay = true;
+    backgroundMusic.loop = true;
+    backgroundMusic.playsInline = true;
+
+    // Load first song
+    backgroundMusic.src = playlist[0];
+
+    // Try autoplay immediately
+    const playPromise = backgroundMusic.play();
+
+    if (playPromise !== undefined) {
+        playPromise
+            .then(() => {
+                // Autoplay worked
+                backgroundMusic.muted = false;
+                toggle.textContent = 'Pause Background Music';
+            })
+            .catch(() => {
+                // Browser blocked autoplay
+                backgroundMusic.muted = true;
+
+                // Start automatically after first interaction
+                const startAudio = () => {
+                    backgroundMusic.muted = false;
+                    backgroundMusic.play();
+
+                    toggle.textContent = 'Pause Background Music';
+
+                    document.removeEventListener('click', startAudio);
+                    document.removeEventListener('touchstart', startAudio);
+                };
+
+                document.addEventListener('click', startAudio);
+                document.addEventListener('touchstart', startAudio);
+            });
+    }
+
     toggle.addEventListener('click', () => {
         if (backgroundMusic.paused) {
-            backgroundMusic.play().catch(() => {});
+            backgroundMusic.play();
             toggle.textContent = 'Pause Background Music';
         } else {
             backgroundMusic.pause();
@@ -563,14 +687,6 @@ function setupAudio() {
         }
     });
 
-    backgroundMusic.addEventListener('play', () => {
-        toggle.textContent = 'Pause Background Music';
-    });
-    
-    backgroundMusic.addEventListener('pause', () => {
-        toggle.textContent = 'Play Background Music';
-    });
-    
     backgroundMusic.addEventListener('ended', () => {
         playNextSong();
     });
@@ -578,13 +694,71 @@ function setupAudio() {
 
 function loadAndPlaySong(index) {
     backgroundMusic.src = playlist[index];
-    backgroundMusic.play().catch(() => {});
+    backgroundMusic.load();
+    backgroundMusic.play().catch(() => {
+        // Autoplay may be blocked by browser policy; user click will resume playback.
+    });
     currentSongIndex = index;
 }
 
 function playNextSong() {
     currentSongIndex = (currentSongIndex + 1) % playlist.length;
     loadAndPlaySong(currentSongIndex);
+}
+
+function setupFullMenuButton() {
+    const btn = document.getElementById('viewFullMenuBtn');
+    if (!btn) return;
+
+    btn.addEventListener('click', () => {
+        openFullMenu('img/full_menu.jpg');
+    });
+}
+
+function openFullMenu(imagePath) {
+    const modal = document.getElementById('detailModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalInfo = document.querySelector('.modal-info');
+
+    if (!modal || !modalImage || !modalTitle) return;
+
+    modalImage.innerHTML = '';
+    const img = document.createElement('img');
+    img.src = imagePath;
+    img.alt = 'Full Menu';
+    modalImage.appendChild(img);
+
+    modalTitle.innerText = 'Full Menu';
+
+    if (modalInfo) modalInfo.style.display = 'none';
+
+    modal.classList.add('show');
+    document.body.classList.add('modal-open');
+
+    // when modal closes, restore modal info display
+    const restore = () => {
+        if (modalInfo) modalInfo.style.display = '';
+        modal.classList.remove('show');
+        document.body.classList.remove('modal-open');
+        document.removeEventListener('keydown', onEsc);
+    };
+
+    const onEsc = (e) => {
+        if (e.key === 'Escape') restore();
+    };
+
+    document.addEventListener('keydown', onEsc);
+
+    // also ensure clicking the close button restores
+    const closeBtn = document.getElementById('modalClose');
+    if (closeBtn) {
+        const onClick = () => {
+            restore();
+            closeBtn.removeEventListener('click', onClick);
+        };
+        closeBtn.addEventListener('click', onClick);
+    }
 }
 
 function capitalizeFirst(str) {
