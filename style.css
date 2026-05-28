@@ -104,6 +104,22 @@ body{
   transform:translateY(-1px);
 }
 
+.view-full-menu{
+  padding:14px 20px;
+  border:none;
+  border-radius:14px;
+  background:#ffffff;
+  color:var(--accent);
+  font-weight:600;
+  cursor:pointer;
+  box-shadow:0 2px 12px rgba(0,0,0,.06);
+  transition:.25s ease;
+}
+
+.view-full-menu:hover{
+  transform:translateY(-1px);
+}
+
 .menu-categories{
   display:flex;
   gap:16px;
