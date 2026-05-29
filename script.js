@@ -94,7 +94,7 @@ const menuData = {
                 howMade: 'Pan-seared chicken with bell peppers.',
                 tasteProfile: 'Spicy and aromatic.',
                 price: 210,
-                image: 'img/pepper_chicken_tacos.jpg'
+                image: 'img/Pepper_Chicken_Tacos.jpg'
             },
             {
                 name: 'Paneer Tacos',
